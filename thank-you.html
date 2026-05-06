@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You | Logging Coverage</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background:
+        linear-gradient(rgba(10, 24, 12, 0.88), rgba(10, 24, 12, 0.88)),
+        url("https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=80");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.96);
+      color: #172218;
+      max-width: 760px;
+      width: 100%;
+      padding: 44px;
+      border-radius: 22px;
+      text-align: center;
+      box-shadow: 0 30px 70px rgba(0,0,0,0.35);
+    }
+
+    .check {
+      width: 82px;
+      height: 82px;
+      margin: 0 auto 24px;
+      background: #d4a84f;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 42px;
+      font-weight: bold;
+      color: #111;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      line-height: 1.05;
+      margin-bottom: 20px;
+      color: #142015;
+    }
+
+    .lead {
+      font-size: 21px;
+      color: #435042;
+      margin-bottom: 34px;
+      line-height: 1.5;
+    }
+
+    .info-box {
+      background: #f4f6f1;
+      border: 1px solid #dde3d8;
+      border-radius: 16px;
+      padding: 26px;
+      text-align: left;
+      margin-top: 24px;
+    }
+
+    .info-box h2 {
+      font-size: 24px;
+      margin-bottom: 14px;
+      color: #1b271c;
+    }
+
+    .info-box ul {
+      padding-left: 20px;
+      line-height: 1.9;
+      color: #455145;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 36px;
+      background: #d4a84f;
+      color: #111;
+      padding: 16px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    .button:hover {
+      background: #c99a37;
+    }
+
+    .small {
+      margin-top: 24px;
+      color: #647060;
+      font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+      .card {
+        padding: 30px 24px;
+      }
+
+      .lead {
+        font-size: 18px;
+      }
+
+      .info-box {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <div class="check">✓</div>
+
+    <h1>Your Request Has Been Received</h1>
+
+    <p class="lead">
+      A logging insurance specialist will review your request and contact you shortly
+      to discuss your operation, equipment, trucks, and coverage needs.
+    </p>
+
+    <div class="info-box">
+      <h2>What Happens Next?</h2>
+
+      <ul>
+        <li>A specialist may contact you by phone, text, or email.</li>
+        <li>You may be asked for current policy information or loss history.</li>
+        <li>Your operation and coverage needs will be reviewed for potential options.</li>
+        <li>There is no obligation to move forward.</li>
+      </ul>
+    </div>
+
+    <a class="button" href="index.html">
+      Return to Homepage
+    </a>
+
+    <p class="small">
+      LoggingCoverage.com is a lead generation website that connects businesses
+      with insurance professionals.
+    </p>
+
+  </div>
+
+</body>
+</html>
